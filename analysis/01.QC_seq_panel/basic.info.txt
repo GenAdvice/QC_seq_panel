@@ -1,0 +1,13 @@
+Bam	mapped_cnt	unmapped_cnt	mapped_perc	unmapped_perc
+data/bam/IonXpress_013_R_2016_08_10_11_14_13_user_BCME-IONS5-11-AmpliSeqCHPV2_BC44nonfragmented_BC44_Nonfragm_BED44.bam	189898	18799	90.9918	9.00775
+data/bam/IonXpress_013_R_2016_08_10_15_33_59_user_BCME-IONS5-12-AmpliSeqCHPV2_BC44Fragmented_BC44_Fragm_BED44.bam	304405	27210	91.7944	8.20527
+data/bam/IonXpress_014_R_2016_08_10_11_14_13_user_BCME-IONS5-11-AmpliSeqCHPV2_BC44nonfragmented_BC44_Nonfragm_BED44.bam	78896	4937	94.1098	5.88902
+data/bam/IonXpress_014_R_2016_08_10_15_33_59_user_BCME-IONS5-12-AmpliSeqCHPV2_BC44Fragmented_BC44_Fragm_BED44.bam	10038	4837	67.4778	32.5155
+data/bam/IonXpress_015_R_2016_08_10_11_14_13_user_BCME-IONS5-11-AmpliSeqCHPV2_BC44nonfragmented_BC44_Nonfragm_BED44.bam	1099986	51403	95.5355	4.46443
+data/bam/IonXpress_015_R_2016_08_10_15_33_59_user_BCME-IONS5-12-AmpliSeqCHPV2_BC44Fragmented_BC44_Fragm_BED44.bam	339424	31113	91.603	8.39671
+data/bam/IonXpress_016_R_2016_08_10_11_14_13_user_BCME-IONS5-11-AmpliSeqCHPV2_BC44nonfragmented_BC44_Nonfragm_BED44.bam	228586	12562	94.7904	5.20923
+data/bam/IonXpress_016_R_2016_08_10_15_33_59_user_BCME-IONS5-12-AmpliSeqCHPV2_BC44Fragmented_BC44_Fragm_BED44.bam	282886	19140	93.6625	6.33718
+data/bam/test.aln.15.bam	1785	206912	0.855303	99.1442
+data/bam/test.aln.bam	1783	206914	0.854345	99.1452
+data/bam/test.bam	3149	205751	1.50741	98.4921
+data/bam/test.mem.10.bam	3149	205751	1.50741	98.4921
