@@ -6,9 +6,13 @@
 export GenAdviceHome=`pwd`
 
 ## Get the right software
-bash software/getSoftware.sh
+cd software
+bash getSoftware.sh
+cd $GenAdviceHome
 
 export PATH="${GenAdviceHome}/software/anaconda/anaconda_3-4.1.1/anaconda3/bin/:$PATH"
 
 ## Get the right ref genome
-bash databases/hg19/get.hg19.sh
+cd databases/hg19/
+bash get.hg19.sh
+cd $GenAdviceHome

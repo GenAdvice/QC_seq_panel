@@ -20,12 +20,13 @@ if [ ! -d ${version} ]
 then
    mkdir ${version}
    cd ${version}
-   wget http://repo.continuum.io/archive/Anaconda3-4.1.1-Linux-x86_64.sh
+   #wget http://repo.continuum.io/archive/Anaconda3-4.1.1-Linux-x86_64.sh
 
-   bash Anaconda3-4.1.1-Linux-x86_64.sh -b - ${GenAdviceHome}/${tool}/${version}/anaconda3
+   bash Anaconda3-4.1.1-Linux-x86_64.sh -b -p ${GenAdviceHome}/software/${tool}/${version}/anaconda3
 
    # . ~/.bashrc
-   export PATH="${GenAdviceHome}/${tool}/${version}/anaconda3/bin:$PATH"
+   export PATH="${GenAdviceHome}/software/${tool}/${version}/anaconda3/bin:$PATH"
+   echo $PATH
 
    conda config --add channels r
    conda config --add channels BioBuilds
